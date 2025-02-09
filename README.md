@@ -1,9 +1,9 @@
-# Проєкт
+# Project
 
-## Налаштування Backend:
+## Backend Settings:
 
-1. Бекенд-файли знаходяться без директорії.
-2. Створи файл `.env` з таким вмістом:
+1. Backend files are located without a directory.
+2.Create a .env file with the following content:
 
    ```env
    BE_PORT=7000
@@ -13,12 +13,12 @@
    POSTGRES_USERNAME=postgres
    POSTGRES_PASSWORD=root
    POSTGRES_DATABASE=test
- 3. Запустіть 
+ 3. Run 
 npm i 
 npm run start:dev
 
-## Налаштування Frontend:
-1. Фронт енд файли знаходяться в репозиторії fe 
-2. запустіть 
+## Frontend Settings:
+1. Frontend files are located in the fe repository
+2. run 
 npm i
 npm run
