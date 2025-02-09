@@ -1,0 +1,116 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.country-info-container {
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.flag-image {
+    width: 100%;
+    max-width: 320px;
+    margin: 15px 0;
+    display: block;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.country-details {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #ecf0f1;
+    border-radius: 6px;
+}
+
+.country-details h3 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+
+.country-details p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.borders-list {
+    list-style-type: none;
+    margin: 15px 0;
+    padding: 0;
+}
+
+.borders-list li {
+    margin-bottom: 6px;
+}
+
+.borders-list li a {
+    text-decoration: none;
+    color: #2980b9;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.borders-list li a:hover {
+    color: #3498db;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #34495e;
+    margin-top: 25px;
+}
+
+p {
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.loading-message,
+.error-message {
+    font-size: 1rem;
+    color: #e74c3c;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.back-home-button {
+    display: inline-block;
+    background-color: #2980b9;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.back-home-button:hover {
+    background-color: #3498db;
+}
